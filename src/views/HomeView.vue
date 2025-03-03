@@ -12,7 +12,7 @@
       <p><strong>📅 When:</strong> March 29, starting at <strong>3 PM</strong>.</p>
       <p>💃 <strong>Dance entertainment:</strong> 4–5 PM, followed by pizza and cake.</p>
       <p>👨‍👩‍👧‍👦 The whole family is welcome—we’ll have <strong>snacks and refreshments</strong> for adults too!</p>
-      <p><strong>📍 Where:</strong> Our home 509 Montrose St, Philly</p>
+      <p><strong>📍 Where:</strong> Our home 509 Montrose St, Philadelphia 19147</p>
      
       <p><strong>💖 P.S.</strong> Overdressing is highly encouraged! ✨</p>
       <hr>
