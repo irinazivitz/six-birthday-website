@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue';
-import RSVPList from '../views/RSVPListView.vue';
+import RSVPListView from '../views/RSVPListView.vue';
 
 const routes = [
   {
@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/rsvps',
     name: 'rsvps',
-    component: RSVPList
+    component: RSVPListView
   }
 ]
 

@@ -6,20 +6,27 @@
 
     <RSVPForm v-if="showRSVP" @close="showRSVP = false" />
     
-    <div class="party-details  mt-4 p-4 rounded">
-      <h2 class="text-center">Party Details</h2>
+    <div class="party-details  mt-10 p-4 rounded">
+      <h2 class="text-center">Party Time!</h2>
       <p><strong>✨ What:</strong> Leah is turning six! Join us for a fabulous glam makeover and dance party to celebrate her special day.</p>
       <p><strong>📅 When:</strong> March 29, starting at <strong>3 PM</strong>.</p>
       <p>💃 <strong>Dance entertainment:</strong> 4–5 PM, followed by pizza and cake.</p>
       <p>👨‍👩‍👧‍👦 The whole family is welcome—we’ll have <strong>snacks and refreshments</strong> for adults too!</p>
       <p><strong>📍 Where:</strong> Our home 509 Montrose St, Philly</p>
+     
       <p><strong>💖 P.S.</strong> Overdressing is highly encouraged! ✨</p>
       <hr>
-      <h3 class="text-center">Helpful Details</h3>
-      <ul>
+      <h3 class="text-center">Helpful Info</h3>
+      <ul >
         <li>🐶 We have a <strong>large, friendly dog</strong>.</li>
         <li>🚗 <strong>Street parking.</strong> </li>
         <li>👞 <strong>Shoes-free house</strong>, so feel free to bring socks or indoor fancy shoes !</li>
+         <li>
+          <a href="https://a.co/d/0JvifP3" class="book-link">
+            📖 Suggested pre-read (Optional)
+            </a>
+         </li>
+       
       </ul>
     </div>
   </div>
@@ -52,7 +59,8 @@ body {
 h2, h3 {
   font-family: 'Playfair Display', serif;
   color: #e1b97e;
-  margin-top: 20px;
+  margin-top: 15px !important;
+  margin-bottom: 20px !important;
 }
 
 p, li {
@@ -70,14 +78,14 @@ p, li {
 }
 
 button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   font-weight: bold;
   padding: 12px 24px;
   border: none;
-  border-radius: 5px;
+  border-radius: 5px !important;
   cursor: pointer;
-  transition: background 0.3s;
-  margin: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin: 20px !important;
 }
 
 .rsvp-button {
@@ -86,16 +94,33 @@ button {
 }
 .rsvp-button:hover {
   background-color: #d1acd4;
+  transform: scale(1.1);
 }
 
 .party-details {
   background: rgba(255, 255, 255, 0.1);
-  padding: 20px;
-  border-radius: 10px;
+  padding: 20px !important;
+  border-radius: 10px !important;
+  padding-bottom: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+}
+.book-link {
+  color: #e1b97e;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px; 
+  transition: color 0.3s ease;
+}
+
+
+.book-link:hover {
+  color: #ffffff; 
+  text-decoration: none; 
 }
 </style>
